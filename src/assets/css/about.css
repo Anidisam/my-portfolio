@@ -1,12 +1,20 @@
 .about-section {
   padding: 2rem;
   text-align: center;
+  background-color: #170550;
+  margin: -8px;
 }
 
 .about-section h2 {
   font-size: 2rem;
-  color: #333;
+  color: #fff;
   margin-bottom: 1.5rem;
+  text-decoration: underline;
+}
+
+.high {
+  color: #F86F03;
+  font-weight: bold;
 }
 
 .about-content {
@@ -28,19 +36,25 @@
 
 .about-text h3 {
   font-size: 2rem;
-  color: #333;
+  color: #fff;
   margin-bottom: 1rem;
 }
 
 .about-text p {
   font-size: 1rem;
-  color: #555;
+  color: #fff;
   margin-bottom: 1.5rem;
+}
+
+.extra-content {
+  font-size: 1rem;
+  color: red;
+  margin-top: 1rem;
 }
 
 .read-btn {
   background-color: #f9b233;
-  color: #fff;
+  color: #000;
   padding: 0.7rem 1.2rem;
   border: none;
   border-radius: 5px;

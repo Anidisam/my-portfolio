@@ -1,0 +1,45 @@
+.skills-section {
+  padding: 2rem;
+  text-align: center;
+  background-color: #1A0B42;
+  margin: -8px;
+}
+
+.skills-section h2 {
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+.skills-container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.skill-item {
+  margin: 1rem 0;
+}
+
+.skill-name {
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.skill-bar {
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  overflow: hidden;
+  height: 20px;
+  margin: 0.5rem 0;
+}
+
+.skill-level {
+  background-color: #f9b233;
+  height: 100%;
+}
+
+.skill-percentage {
+  font-size: 0.9rem;
+  color: #fff;
+}
