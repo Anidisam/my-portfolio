@@ -1,7 +1,13 @@
-import React from 'react'
+import React, { useState } from "react";
 import "../assets/css/navbar.css";
 
 const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false); // State for mobile menu toggle
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen); 
+  };
+
   return (
     <div>
       <nav className="navbar">
@@ -9,7 +15,16 @@ const Navbar = () => {
           <h1>Anidi</h1>
           <p>All Tech Solution</p>
         </div>
-        <ul className="navbar-links">
+        <div
+          className={`navbar-toggle ${isOpen ? "open" : ""}`}
+          onClick={toggleMenu}
+        >
+         
+          <div className="bar"></div>
+          <div className="bar"></div>
+          <div className="bar"></div>
+        </div>
+        <ul className={`navbar-links ${isOpen ? "active" : ""}`}>
           <li>
             <a href="#home">Home</a>
           </li>
@@ -33,6 +48,6 @@ const Navbar = () => {
       </nav>
     </div>
   );
-}
+};
 
-export default Navbar
+export default Navbar;

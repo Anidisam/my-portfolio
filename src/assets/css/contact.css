@@ -15,6 +15,7 @@
   display: flex;
   justify-content: space-between;
   gap: 2rem;
+  flex-wrap: wrap; 
 }
 
 .contact-info {
@@ -39,6 +40,7 @@
   flex: 1;
 }
 
+
 .contact-form input,
 .contact-form textarea {
   width: 100%;
@@ -60,4 +62,33 @@
 
 .contact-form button:hover {
   background-color: #e0a32c;
+}
+
+
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column; 
+    align-items: center; 
+  }
+
+  .contact-info {
+    margin-bottom: 2rem; 
+    text-align: center; 
+  }
+
+  .info-item {
+    justify-content: center; 
+  }
+
+  .icon {
+    font-size: 1.2rem; 
+  }
+
+  .contact-section h2 {
+    font-size: 1.5rem; 
+  }
+
+  .contact-form button {
+    width: 100%; 
+  }
 }
