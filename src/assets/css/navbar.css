@@ -3,8 +3,9 @@
   align-items: center;
   justify-content: space-between;
   padding: 1rem 2rem;
-  background-color: #333;
+  background-color: #170550;
   color: #fff;
+  margin: -8px;
 }
 
 .navbar-logo h1 {
@@ -36,12 +37,12 @@
 }
 
 .navbar-button {
-  background-color: #f9b233;
+  background-color: #fff;
   color: #333;
   padding: 0.5rem 1rem;
   border: none;
   cursor: pointer;
-  border-radius: 4px;
+  border-radius: 10px;
   font-weight: bold;
 }
 
