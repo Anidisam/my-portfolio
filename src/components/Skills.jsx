@@ -1,32 +1,41 @@
 import React from "react";
 import "../assets/css/skills.css";
+import htmlLogo from "../assets/images/html-logo.jpeg"; // Example path to your logo images
+import cssLogo from "../assets/images/css-logo.png";
+import jsLogo from "../assets/images/js-logo.png";
+import bootstrapLogo from "../assets/images/bootstrap-logo.jpeg";
+import reactLogo from "../assets/images/react-logo.jpeg";
+import wordLogo from "../assets/images/wordpress-logo.jpeg";
 
 const Skills = () => {
-  const skillsData = [
-    { name: "HTML", level: 100 },
-    { name: "CSS", level: 100 },
-    { name: "JavaScript", level: 70 },
-    { name: "Bootstrap", level: 100 },
-    { name: "React", level: 100 },
-    { name: "TypeScript", level: 80 },
-  ];
-
   return (
-    <section className="skills-section">
-      <h2>My <span className="highlight">Skills</span></h2>
+    <section className="skills-section" id="skills">
+      <h2>My Skills</h2>
       <div className="skills-container">
-        {skillsData.map((skill, index) => (
-          <div key={index} className="skill-item">
-            <span className="skill-name">{skill.name}</span>
-            <div className="skill-bar">
-              <div
-                className="skill-level"
-                style={{ width: `${skill.level}%` }}
-              ></div>
-            </div>
-            <span className="skill-percentage">{skill.level}%</span>
-          </div>
-        ))}
+        <div className="skill-item">
+          <img src={htmlLogo} alt="HTML Logo" />
+          <p>HTML</p>
+        </div>
+        <div className="skill-item">
+          <img src={cssLogo} alt="CSS Logo" />
+          <p>CSS</p>
+        </div>
+        <div className="skill-item">
+          <img src={jsLogo} alt="JavaScript Logo" />
+          <p>JavaScript</p>
+        </div>
+        <div className="skill-item">
+          <img src={bootstrapLogo} alt="Bootstrap Logo" />
+          <p>Bootstrap</p>
+        </div>
+        <div className="skill-item">
+          <img src={reactLogo} alt="React Logo" />
+          <p>React</p>
+        </div>
+        <div className="skill-item">
+          <img src={wordLogo} alt="wordpress Logo" />
+          <p>Wordpress</p>
+        </div>
       </div>
     </section>
   );

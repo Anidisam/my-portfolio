@@ -10,7 +10,7 @@ const Contact = () => {
         <div className="contact-info">
           <div className="info-item">
             <FaPhone className="icon" />
-            <span>+123 7047920318</span>
+            <span>+234 7047920318</span>
           </div>
           <div className="info-item">
             <FaEnvelope className="icon" />
@@ -18,7 +18,7 @@ const Contact = () => {
           </div>
           <div className="info-item">
             <FaWhatsapp className="icon" />
-            <span>+123 7047920318</span>
+            <span>+234 7047920318</span>
           </div>
         </div>
         <form className="contact-form">

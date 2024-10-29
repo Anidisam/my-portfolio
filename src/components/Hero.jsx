@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import "../assets/css/hero.css";
 import { FaFacebook, FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 import heroImage from "../assets/images/hero-image.svg";
@@ -15,16 +15,32 @@ const Hero = () => {
           </p>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           <div className="hero-icons">
-            <a href="#facebook">
+            <a
+              href="https://facebook.com/samuel Anidi"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaFacebook />
             </a>
-            <a href="#linkedin">
+            <a
+              href="https://linkedin.com/in/YourLinkedInProfile"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaLinkedin />
             </a>
-            <a href="#github">
+            <a
+              href="https://github.com/Anidisam"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaGithub />
             </a>
-            <a href="#instagram">
+            <a
+              href="https://instagram.com/YourInstagramProfile"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaInstagram />
             </a>
           </div>
@@ -36,6 +52,6 @@ const Hero = () => {
       </section>
     </div>
   );
-}
+};
 
-export default Hero
+export default Hero;
