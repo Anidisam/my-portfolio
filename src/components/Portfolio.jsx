@@ -12,21 +12,21 @@ const Portfolio = () => {
       image: project1Image,
       title: "Project One",
       description: "A brief description of Project One.",
-      link: "#", // Add actual link to project
+      link: "https://real-estate--project.vercel.app/",
     },
     {
       id: 2,
       image: project2Image,
       title: "Project Two",
       description: "A brief description of Project Two.",
-      link: "https://oasisoaks.vercel.app/#", 
+      link: "https://oasisoaks.vercel.app/",
     },
     {
       id: 3,
       image: project3Image,
       title: "Project Three",
       description: "A brief description of Project Three.",
-      link: "https://uiux-designers.vercel.app/", 
+      link: "https://uiux-designers.vercel.app/",
     },
   ];
 
