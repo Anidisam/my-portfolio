@@ -10,22 +10,22 @@ const Portfolio = () => {
     {
       id: 1,
       image: project1Image,
-      title: "Project One",
-      description: "A brief description of Project One.",
+      title: "Real Estate Project",
+      description: "This is a real eststate project check it out.",
       link: "https://real-estate--project.vercel.app/",
     },
     {
       id: 2,
       image: project2Image,
-      title: "Project Two",
-      description: "A brief description of Project Two.",
+      title: "Oasis & Oaks",
+      description: "This is a website that will help you study abroad.",
       link: "https://oasisoaks.vercel.app/",
     },
     {
       id: 3,
       image: project3Image,
-      title: "Project Three",
-      description: "A brief description of Project Three.",
+      title: "UI UX website",
+      description: "check it out!.",
       link: "https://uiux-designers.vercel.app/",
     },
   ];
