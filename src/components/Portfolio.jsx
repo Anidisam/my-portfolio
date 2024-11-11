@@ -1,9 +1,9 @@
 import React from "react";
 import { Card, Button, Row, Col } from "react-bootstrap";
 import "../assets/css/portfolio.css";
-import project1Image from "../assets/images/hero-image.svg";
-import project2Image from "../assets/images/hero-image.svg";
-import project3Image from "../assets/images/hero-image.svg";
+import project1Image from "../assets/images/white-house.svg";
+import project2Image from "../assets/images/austra.svg";
+import project3Image from "../assets/images/uix.jpeg";
 
 const Portfolio = () => {
   const projects = [
@@ -18,7 +18,7 @@ const Portfolio = () => {
       id: 2,
       image: project2Image,
       title: "Oasis & Oaks",
-      description: "This is a website that will help you study abroad.",
+      description: "We help you study abroad.",
       link: "https://oasisoaks.vercel.app/",
     },
     {

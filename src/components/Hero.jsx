@@ -2,6 +2,7 @@ import React from "react";
 import "../assets/css/hero.css";
 import { FaFacebook, FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 import heroImage from "../assets/images/hero-image.svg";
+import cvFile from "../assets/AnidiSamuelCV.pdf";
 
 const Hero = () => {
   return (
@@ -44,7 +45,9 @@ const Hero = () => {
               <FaInstagram />
             </a>
           </div>
-          <button className="cv-button">Download CV</button>
+          <a href={cvFile} download="AnidiSamuelCV.pdf">
+            <button className="cv-button">Download CV</button>
+          </a>
         </div>
         <div className="hero-image">
           <img src={heroImage} alt="code" />

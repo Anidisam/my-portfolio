@@ -19,7 +19,7 @@ const Services = () => {
         </div>
         <div className="service-box">
           <img src={phone} alt="Service 2" />
-          <h3>App Development</h3>
+          <h3>Graphic Design</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
             odio. Praesent libero. Sed cursus ante.
