@@ -14,7 +14,10 @@ const Hero = () => {
           <p>
             and I am a <span className="highlight">frontend developer</span>
           </p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p>
+            I focus on crafting polished, responsive designs that make online
+            interactions seamless and memorable for users.
+          </p>
           <div className="hero-icons">
             <a
               href="https://facebook.com/samuel Anidi"

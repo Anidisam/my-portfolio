@@ -1,4 +1,3 @@
-
 .navbar {
   display: flex;
   align-items: center;
@@ -7,6 +6,7 @@
   background-color: #170550;
   color: #fff;
   margin: -8px;
+  position: relative; /* Add this to enable relative positioning */
 }
 
 .navbar-logo h1 {
@@ -51,9 +51,8 @@
   background-color: #e69a19;
 }
 
-
 .navbar-toggle {
-  display: none; 
+  display: none;
   flex-direction: column;
   cursor: pointer;
 }
@@ -65,34 +64,36 @@
   margin: 4px 0;
 }
 
-
 @media (max-width: 768px) {
   .navbar {
-    flex-direction: column; 
-    align-items: flex-start; 
-  }
-
-  .navbar-links {
-    display: none; 
-    flex-direction: column; 
-    width: 100%; 
-    padding: 1rem 0; 
-    background-color: #170550; 
-    position: absolute;
-    top: 60px; 
-    left: 0;
-    z-index: 1; 
-  }
-
-  .navbar-links.active {
-    display: flex; 
+    flex-direction: column;
+    align-items: flex-start;
   }
 
   .navbar-toggle {
-    display: flex; 
+    display: flex;
+    position: absolute;
+    top: 20px; /* Adjusts vertical position */
+    right: 20px; /* Moves the toggle to the right */
+  }
+
+  .navbar-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem 0;
+    background-color: #170550;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    z-index: 1;
+  }
+
+  .navbar-links.active {
+    display: flex;
   }
 
   .navbar-button {
-    margin-top: 1rem; 
+    margin-top: 1rem;
   }
 }

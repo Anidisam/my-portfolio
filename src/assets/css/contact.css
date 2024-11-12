@@ -64,6 +64,18 @@
   background-color: #e0a32c;
 }
 
+/* Add these styles to your contact.css */
+.contact-form p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: green;  /* Success message */
+}
+
+.contact-form p.error {
+  color: red;  /* Error message */
+}
+
+
 
 @media (max-width: 768px) {
   .contact-container {

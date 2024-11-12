@@ -20,13 +20,13 @@
 }
 
 .hero-content h1 {
-  font-size: 3rem;
+  font-size: 2.3rem;
   margin: 0.5rem 0;
   color: #fff;
 }
 
 .hero-content p {
-  font-size: 3rem;
+  font-size: 1.3rem;
   color: #fff;
 }
 
@@ -48,7 +48,7 @@
 }
 
 .hero-icons a:hover {
-  color: #f9b233;
+  color: blue;
 }
 
 .cv-button {
@@ -62,13 +62,14 @@
 }
 
 .cv-button:hover {
-  background-color: #e69a19;
+  background-color: gold;
 }
 
 .hero-image img {
   width: 100%;
   max-width: 400px;
-  border-radius: 10px;
+  border-radius: 50px;
+  padding-left: 70px;
 }
 
 @media (max-width: 768px) {

@@ -9,7 +9,7 @@ const About = () => {
     setShowMore(!showMore);
   };
   return (
-    <section className="about-section">
+    <section className="about-section" id="about">
       <h2>
         ABOUT <span className="high">ME</span>
       </h2>
