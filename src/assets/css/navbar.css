@@ -73,8 +73,8 @@
   .navbar-toggle {
     display: flex;
     position: absolute;
-    top: 20px; /* Adjusts vertical position */
-    right: 20px; /* Moves the toggle to the right */
+    top: 20px; 
+    right: 20px; 
   }
 
   .navbar-links {

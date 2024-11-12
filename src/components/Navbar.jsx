@@ -43,7 +43,14 @@ const Navbar = () => {
             <a href="#contact">Contact</a>
           </li>
         </ul>
-        <button className="navbar-button">Hire Me</button>
+        <button className="navbar-button">
+          <a
+            href="#contact"
+            style={{ textDecoration: "none", color: "inherit" }}
+          >
+            Hire Me
+          </a>
+        </button>
       </nav>
     </div>
   );
